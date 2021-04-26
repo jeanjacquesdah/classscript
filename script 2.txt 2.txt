@@ -1,0 +1,50 @@
+#!/bin/bah
+#CPU CHECK
+CPU_C =`nproc`
+if 
+[ ${CPU_C} -eq 2 ]
+then
+echo "CPU CHECK PASSED"
+else "CPU CHECK FAILED"
+fi 
+
+#TOTAL MEMEORY CHECK
+MEM =`free -m | grep Mem | awk '{ print $2 }'`
+if 
+[ ${MEM} -lt 2000 ]
+then
+echo "MEMORY CHECK PASSED"
+else "MEMORY CHECK FAILED"
+fi 
+
+#check file  /etc/passwd/ exist
+ if 
+ [-f /etc/passwd]
+then 
+echo "file exist"
+else
+echo "file does not exist"
+
+#check file /etc/group/ exist
+ if 
+ [ -f /etc/group ]
+then 
+echo "file exist"
+else
+echo "file does not exist"
+
+#check file /etc/kurbernetes exist 
+ if 
+ [ -f /etc/kurbernetes ]
+then 
+echo "file exist"
+else
+echo "file does not exist"
+
+#check file /etc/httpd exist 
+ if 
+ [ -f /etc/httpd ]
+then 
+echo "file exist"
+else
+echo "file does not exist"
