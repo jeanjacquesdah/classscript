@@ -1,0 +1,29 @@
+1- I choose to have a carreer in the IT field because this is a field drive by constant improvement creativity, problem-solving and attention-to-detail. Being somene who want to constantly bring solution and embrace creativity I do believe that IT field is a filed meant for me 
+
+2- Linux:beacause it is an open source operating system it is flexible with a few required update and very secure 
+
+3- A soft link  is an actual link to the original file, whereas a hard link is a mirror copy of the original file. Once the file is deleted the sfot link became irrelevant whereas the hard link can still has the data of the original file.
+
+4- A sticky bit is a A Sticky bit is a permission bit that is set on a file or a directory that lets only the owner of the file/directory or the root user to delete or rename the file.
+
+5- To run an application on port 8000 on an Ubuntu server I need to open the port 8000 with the command ufw allow 8000 /tcp
+
+6- Listen port is a network port on which an application or process listens on in other word an application or process is waiting for a connection to be made 
+
+7- A listen port is an open port 
+
+8- We deployed a server but apache was not working so I decide to troubleshoot and I listed the open port by running the command netstat -tulnp I found out that the port was occupied by another appilcation Pyhton was occupied the port 80  so I asked permission to either kill the program that was occupied the port or allocate another port to this programm
+
+9- I took the initiative to improve the iventory process of the servers we wanted to get rid of . The inevntory was made manually and was taking a lot of time so I decided to write a script to automate the process and make us save time 
+
+10- One of the challenging project I can recall it was when I have been asked to write a script to automate the building of an image in Docker 
+
+11- I use AWk for manipulating data and generating reports and also to filter the specifine line that I am looking for on a file 
+
+12- I used sed command to edit a particalar line on a massive file
+
+13- In the commpany I am currently working in I have the task to build images base on centos alpine or ubuntu for the most part and push it into a secure repository for our customer to be able to use it 
+
+14-To build a docker image I need to create a docker file with the instruction and run the the command docker built after then i will push the image into a secure repository accessible to the web develloper 
+
+15- I am familiar with the bash shell script. At work one of the application was running and generrating a lot of log messages casuing the server to generate alerts about file system been full. i decided to write a script to delete the log files older than 2 weeks and the script definitely solve the problem 
